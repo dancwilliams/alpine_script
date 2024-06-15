@@ -88,7 +88,6 @@ if [ "${PACKAGES_ALREADY_INSTALLED}" != "true" ]; then
         libstdc++ \
         krb5-libs \
         libintl \
-        libssl \
         lttng-ust \
         tzdata \
         userspace-rcu \
