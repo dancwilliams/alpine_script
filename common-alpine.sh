@@ -68,6 +68,7 @@ if [ "${PACKAGES_ALREADY_INSTALLED}" != "true" ]; then
     apk update
     apk add --no-cache \
         openssh-client \
+        openssl \
         gnupg \
         procps \
         lsof \
